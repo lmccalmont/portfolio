@@ -1,0 +1,243 @@
+
+body{
+    background-color: RGB(251, 242, 233);
+}
+
+#header{
+    font-family: 'Karla', sans-serif;
+    padding-left: 2em;
+}
+
+#title{
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(60, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+.navMenu{
+    font-family: 'Inconsolata', monospace;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10em;
+    
+}
+.navMenu a{
+    color: black;
+    text-decoration: none;
+    padding: .5em;
+    margin: 2em;
+}
+/* Media Quiery to use hover effect iff screen is larger than a tablet */
+
+@media (min-width: 1024px){
+#about:hover{
+    background-color: #FFE156;
+}
+#projectslink:hover{
+    background-color: #9381FF;
+}
+#linkedin:hover{
+    background-color: #FF6B6C;
+}
+#contact:hover{
+    background-color: #00AFB9;
+}
+#resume:hover{
+    background-color: #53DD6C;
+}
+
+}
+#welcome-section{
+    margin-bottom: 5em;
+    margin: auto;
+    text-align: center;
+    
+}
+#welcome-section h2{
+    font-size: 32px;
+    margin-bottom: 2em;
+    font-family: 'Inconsolata', monospace;
+}
+#welcome-section p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    margin: auto;
+    text-align: left;
+    max-width: 50%;
+    padding-bottom: 2em;
+    text-indent: 50px;
+    inline-size: 750px;
+    overflow-wrap: break-word;
+}
+
+#projects{
+    margin-bottom: 2em;
+    
+}
+
+#projects h2{
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+    
+   
+}
+#hauntedWoods{
+    
+    padding: 2em;
+}
+
+
+#hauntedWoods img{
+height:auto;
+max-width: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: .5s ease;
+
+
+}
+
+#hauntedWoods img:hover{
+    box-shadow:
+    1px 1px #5d51a3,
+    2px 2px #5d51a3,
+    3px 3px #5d51a3,
+    4px 4px #5d51a3,
+    5px 5px #5d51a3,
+    6px 6px #5d51a3;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+}
+#furledFern{
+    padding: 2em;
+}
+#furledFern img{
+    height:auto;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s ease;
+    
+    }
+    
+    #furledFern img:hover{
+        box-shadow:
+        1px 1px #5d51a3,
+        2px 2px #5d51a3,
+        3px 3px #5d51a3,
+        4px 4px #5d51a3,
+        5px 5px #5d51a3,
+        6px 6px #5d51a3;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        transition: .5s ease;
+    }
+    
+    #contact-me{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    #contact-me h2{
+        margin: auto;
+        font-size: 32px;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 5em;
+        margin-bottom: 2em;
+        text-align: center;
+        
+       
+    }
+    #contact-me a{
+        color: black;
+        text-decoration: none;
+        padding: .5em;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    #lilink{
+        margin-right: 2em;
+    }
+
+    #contact-me img{
+        height:auto;
+        max-width: 3%;
+        vertical-align:middle
+    }
+
+    
+
+
+
+/* Media Quiery to stack the menu items if screen is tablet or smaller */
+
+
+    @media (max-width: 1024px){
+       
+        .navMenu{
+            font-family: 'Inconsolata', monospace;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 10em;
+            
+        }
+        .navMenu a{
+            display:block;
+            text-align: center;
+            margin: 1em;
+            padding: .5em;
+    }
+
+    #contact-me a{
+        display:block;
+        text-align: center;
+        margin: 1em;
+        padding: .5em;
+        font-family: 'Inconsolata', monospace;
+    }
+
+ 
+
+    }
+
+    /* Haunted Woods specific CSS */
+#timeline{
+    margin: auto;
+    width: 50%;
+}
+
+
+    #timeline li{
+        list-style-type:circle;
+  margin: 0;
+  padding-bottom: .5em;
+  text-align: left;
+  font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-indent: 50px;
+    inline-size: 750px;
+    overflow-wrap: break-word;
+    }
+
+
+
+    
+    

@@ -1,0 +1,10 @@
+Fonts used:
+Title: Karla
+paragraphs: Inconsolata
+See here: https://www.pagecloud.com/blog/best-google-fonts-pairings
+
+
+Color Palette: 
+https://coolors.co/fbf2e9-9381ff-ff6b6c-00afb9-53dd6c
+
+ https://lmccalmont.github.io/plantStore/
